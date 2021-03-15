@@ -9,7 +9,7 @@ Then the output of the HOTP is also hashed and from the hash multiple index numb
 The [EFF Wordlist](https://www.eff.org/dice) is built into the code but as mentioned you can use any diceware compatible wordlist or even others such as Bitcoin's [Bip39 wordlists](https://github.com/bitcoin/bips/blob/master/bip-0039/bip-0039-wordlists.md) Although the latter would need some small modifications to the code.
 You can use [Wordlist_to_JSON](https://gist.github.com/MedStuCoder/1fe47de8501e56b2feb0c2a30e91d07b) to convert other Diceware lists to JSON to use with the code.
 
-The words are selected from the wordlist and some modifications such as capitalizing specific letters (based on the password+key hash) and adding some special characters including numbers (again, in a repeatable manner) are applied and the final password is printed out.
+The words are selected from the wordlist and some modifications such as capitalizing specific letters (based on the password+key hash) and adding some special characters including numbers (again, in a repeatable manner) are applied and the final password is printed out. More details can be found in the code's comments.
 
 The result will be the same given the correct master password and account name, there are no "wrong" results as the code is completely blind and does not store anything.
 
