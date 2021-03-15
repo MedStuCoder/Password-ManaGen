@@ -11,7 +11,7 @@ The [EFF Wordlist](https://www.eff.org/dice) is built into the code but as menti
 The words are selected from the wordlist and some modifications such as capitalizing specific letters (based on the password+key hash) and adding some special characters including numbers (again, in a repeatable manner) are applied and the final password is printed out.
 
 The result will be the same given the correct master password and account name, there are no "wrong" results as the code is completely blind and does not store anything.
-The accompanying "Wordlist to JSON" code simply helps with converting Diceware lists to JSON format to be used by the main code and is not subject to the lisence and is completely free from any terms.
+You can also use [Wordlist_to_JSON](https://gist.github.com/MedStuCoder/1fe47de8501e56b2feb0c2a30e91d07b) to convert other Diceware lists to JSON to use with the code.
 
 This code is published with the hopes that it can be useful by being put into use for real world "Password manager" apps and softwares.
 
