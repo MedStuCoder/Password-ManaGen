@@ -15,5 +15,3 @@ The result will be the same given the correct master password and account name, 
 
 The only dependency is [PyOTP](https://pypi.org/project/pyotp/).
 
-This code is published with the hopes that it can be useful by being put into use for real world "Password manager" apps and softwares.
-
