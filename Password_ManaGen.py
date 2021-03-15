@@ -122,7 +122,7 @@ def main(string):
 		 
 	Generate(int("".join(asciiList)))
 
-
+#Demo:
 while True:
 	main(input("Account Name? : "))
 	sleep(1)
