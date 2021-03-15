@@ -1,5 +1,5 @@
 # Password-ManaGen
-This is neither a password manager (as in saving your passwords somewhere) nor simply a random password generator but both at the same time. The main focus is NOT TO STORE ANY kind of data pertaining to your passwords.
+This is neither a password manager (as in saving your passwords somewhere) nor simply a random password generator but both at the same time. The main focus is TO NOT STORE ANY kind of data pertaining to your passwords.
 
 It accepts a master password from which a Base32 token for an [HOTP algorithm](https://en.wikipedia.org/wiki/HMAC-based_One-Time_Password) is securely (hashed and salted) generated.
 It then asks for an "Account Name" which is also hashed to generate a Counter number for the HOTP.
